@@ -1,4 +1,4 @@
-.submit {
+button {
   display: block;
   position: absolute;
   position: absolute;
@@ -6,6 +6,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  color: black;
-  border: 20px solid #4caf50;
+  color: rgb(60, 50, 102);
+  border: 20px solid #aea7d4e7;
+  border-radius: 5%;
+  font: bold italic large Palatino, serif;
 }
