@@ -11,29 +11,32 @@ function init(){
 }
 
 function handleButtonClick() {
-    let name = prompt( "Введите число" );
-    alert(`Привет, ${name} !`);}
-
-    {
+    let n1 = +prompt( "Введите первое число" );
+    let n2 = +prompt( "Введите второе число" );
+    
+    alert(`${n1}`);
+    alert(`${+n1 + +n2}`);
+let op;
+    function func() {
         // переменная для результата
-      let result;
+      let result = +prompt( "Результат" );
       // получаем первое и второе число
-      let num1 = Number(document.getElementById("num1").value);
-      let num2 = Number(document.getElementById("num2").value);
+      let n1 = Number(document.getElementById("n1").value);
+      let n2 = Number(document.getElementById("n2").value);
       // смотрим, что было в переменной с действием, и действуем исходя из этого
       switch (op) {
         case '+':
-          result = num1 + num2;
+          result = n1 + n2;
           break;
         case '-':
-          result = num1 - num2;
+          result = n1 - n2;
           break;
         case '*':
-          result = num1 * num2;
+          result = n1 * n2;
           break;
         case '/':
-          result = num1 / num2;
+          result = n1 / n2;
           break;
       }
   
-    }
+    }}

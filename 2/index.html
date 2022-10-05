@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="2/style.css"/>
 </head>
 <body>
+   
     <div class="calculator">
-    <button type="button" id="addButton"  value="Your name">+</button>
-    <button type="button" id="addButton"  value="Your name">-</button>
-    <button type="button" id="addButton"  value="Your name">*</button>
-    <button type="button" id="addButton"  value="Your name">/</button>
+    <button type="button" id="addButton" onclick="op='+'">+</button>
+    <button type="button" id="addButton"  onclick="op='-'">-</button>
+    <button type="button" id="addButton"  onclick="op='*'">*</button>
+    <button type="button" id="addButton"  onclick="op= '/'">/</button>
 
 </div>
+<div id="result"></div>
+
     <script src="2/js.js"></script>
     
 </body>
